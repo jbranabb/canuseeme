@@ -1,5 +1,5 @@
 import {Element}  from "react-scroll";
-import Headers from "./Header";
+import Headers from "../ui/Header";
 
 export default function Home() {
   return (
