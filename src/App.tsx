@@ -1,17 +1,15 @@
 import './App.css'
 import Header from './components/pages/Header';
 import Home from './components/pages/Home'
-import { Element } from 'react-scroll';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="min-h-screen bg-black">
-      <Element name='home'>
-      <Header />
-      <Home/>
-      <Home/>
-      </Element>
-    </div>    
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+    </Routes>
+    </BrowserRouter>
     )
 }
 
