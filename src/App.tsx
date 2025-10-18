@@ -1,14 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './components/pages/Header';
+import Home from './components/pages/Home'
+import { Element } from 'react-scroll';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-  <div className=""></div> 
-  )
+    <div className="min-h-screen bg-black">
+      <Element name='home'>
+      <Header />
+      <Home/>
+      <Home/>
+      </Element>
+    </div>    
+    )
 }
 
 export default App
