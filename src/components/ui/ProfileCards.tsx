@@ -15,7 +15,7 @@ export default function ProfileCards() {
                 <span className="text-xs font-bold  ">I&apos;m Jibranab</span>
                 <span className="text-xs"> Just a developer who loves turning ideas into code — from backend logic to pixel-perfect UI.
                     Still learning, still building, always moving forward.</span>
-                <span className="text-xs font-bold">Base In TJQ, Indonesia</span>
+                <span className="text-xs">Base In <span className="font-bold">TJQ, Indonesia</span></span>
                 <div className="mt-1 text-[10px] text-gray-400 italic">
                     <p>Outside of coding, I love watching movies and tv show, tweaking my Linux setup,  
                     and exploring new tech just for fun — because curiosity keeps me alive ✨ 🎬</p>
