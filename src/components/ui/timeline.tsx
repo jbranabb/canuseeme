@@ -18,7 +18,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   useEffect(() => {
     if (ref.current) {
-      const rect = ref.current.scrollHeight + 200;
+      const rect = ref.current.scrollHeight;
       setHeight(rect);
     }
   }, [ref]);
@@ -40,7 +40,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         <h2 className="text-2xl md:text-4xl font-bold mb-4 text-black dark:text-white max-w-4xl">
           How It All Started 
         </h2>
-        <p className="text-neutral-300 text-base md:text-base max-w-sm text-center">
+        <p className="text-gray-400 text-sm md:text-base max-w-sm text-center">
           A glimpse into how I grew as a developer,Tracing back the milestones that shaped my skills and Every bug fixed, every lesson learned.
            </p>
       </div>
@@ -49,7 +49,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         {data.map((item, index) => (
           <div
             key={index}
-            className="flex justify-start pt-10 md:pt-40 md:gap-10"
+            className="flex justify-start pt-0 md:pt-40 md:gap-10"
           >
             {/* <div className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start max-w-xs lg:max-w-sm md:w-full">
               <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
