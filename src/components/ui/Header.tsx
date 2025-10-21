@@ -42,7 +42,7 @@ export default function Headers() {
   return (
     <div className={`
       fixed duration-150 transition-all xl:backdrop-blur-none xl:shadow-none
-      ${nav && !open ? "backdrop-blur-2xl" : "backdrop-blur-none bg-black xl:bg-transparent"}
+      ${nav && !open ? "backdrop-blur-xs" : "backdrop-blur-none bg-black xl:bg-transparent"}
       ${nav ? "translate-y-0" : "-translate-y-full"}
       w-screen top-0 z-20 
        text-white shadow-xl p-6 flex flex-row justify-between items-center`}>
