@@ -1,5 +1,5 @@
 import { Timeline } from "../../ui/timeline"
-import  ProfileCards  from "../../ui/ProfileCards"
+import ProfileCards from "../../ui/ProfileCards"
 export default function Journeys() {
   const data = [
     {
@@ -106,6 +106,8 @@ export default function Journeys() {
   ];
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-[#0D324A] to-black items-center">
+      <div className="font-semibold text-white text-2xl">About Me</div>
+      <p className="text-sm text-gray-400 px-2 py-4 text-center mb-4">Every line of code tells a story — this is mine, from a curious student to a creator who loves building things that matter.</p>
       <ProfileCards />
       <Timeline data={data} />
     </div>
