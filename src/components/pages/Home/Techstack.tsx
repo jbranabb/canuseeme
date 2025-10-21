@@ -73,6 +73,7 @@ export default function Techstack() {
           </div>
         </div>
       </div>
+      <div className="mt-20 text-xs font-bold font-mono animate-pulse">and many more..</div>
     </div>
   )
 }
