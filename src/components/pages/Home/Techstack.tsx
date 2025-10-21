@@ -1,16 +1,13 @@
-import { DiNodejs, DiVisualstudio } from "react-icons/di"
-import { FaBrave } from "react-icons/fa6"
-import {
-  SiVite, SiJavascript, SiTypescript, SiTailwindcss,
-  SiFlutter, SiBun, SiPython, SiReact, SiNextdotjs, SiDart,
-  SiPostgresql, SiSupabase, SiFastapi, SiFirebase, SiDocker, SiLinux, SiGit,
-  SiGithub, SiPostman, SiFigma, SiFramer, SiAndroidstudio, SiCaddy, SiSimplenote,
-  SiApple, SiNpm, SiVercel, SiShadcnui
-} from "react-icons/si"
 import { Icon } from '@iconify/react';
+import {
+  SiApple,
+  SiCaddy,
+  SiFramer,
+  SiShadcnui,
+  SiSimplenote,
+  SiVercel, SiGithub,SiDiagramsdotnet
+} from "react-icons/si";
 export default function Techstack() {
-
-
   return (
     <div className="min-h-screen bg-black flex flex-col items-center text-white">
       <div className="title flex flex-col items-center">
@@ -19,58 +16,60 @@ export default function Techstack() {
           this is the tools that ive breen used and Technology help us pick what things we want to create</p>
       </div>
       <div className="tech">
-        <div className="flex flex-col gap-2 scale-200 mt-10 items-center">
+        <div className="flex flex-col gap-2 scale-200 mt-20 items-center">
           <div className="lang flex gap-2 justify-center">
-            {/* <SiDart color={iconColors.SiDart}/>
-            <SiJavascript color={iconColors.SiJavascript} />
-            <SiTypescript color={iconColors.SiTypescript} />
-            <SiPython color={iconColors.SiPython}/> */}
             <Icon icon='logos:dart'/>
             <Icon icon='logos:javascript'/>
             <Icon icon='logos:typescript-icon'/>
             <Icon icon='logos:python'/>
           </div>
           <div className="framework flex gap-2">
-            <SiFlutter />
-            <SiVite />
-            <SiReact />
-            <SiTailwindcss />
-            <SiNextdotjs />
+            <Icon icon='logos:flutter'/>
+            <Icon icon='logos:vite'/>
+            <Icon icon='logos:react'/>
+            <Icon icon='logos:tailwindcss-icon'width={25} />
+            <Icon icon='logos:nextjs-icon'/>
           </div>
           <div className="framework flex gap-2">
-            <SiSupabase />
-            <SiPostgresql />
-            <SiFastapi />
-            <SiFirebase />
+            <Icon icon='logos:supabase-icon'/>
+            <Icon icon='logos:postgresql'/>
+            <Icon icon='logos:fastapi-icon'/>
+            <Icon icon='logos:firebase-icon'/>
           </div>
         </div>
       </div>
 
       <div className="tools">
-        <div className="flex flex-col gap-2 scale-200 mt-50">
+        <div className="flex flex-col gap-2 scale-200 mt-30">
           <div className="lang flex gap-2 justify-center">
-            <SiLinux />
-            <FaBrave />
-            <DiVisualstudio />
-            <SiAndroidstudio />
-            <SiGit />
-            <SiGithub />
-          </div>
-          <div className="framework flex gap-2">
-            <SiFigma />
-            <SiFramer />
+            <Icon icon='logos:linux-mint'/>
+            <Icon icon='logos:brave'/>
+            <Icon icon='logos:visual-studio-code'/>
             <SiApple />
-            <SiNpm />
-            <SiVercel />
+            <Icon icon='logos:android-icon' width={23}/>
+            </div>
+          <div className="framework flex gap-2 justify-center">
+            <Icon icon='logos:figma'/>
+            <SiFramer />
+            <Icon icon='logos:dribbble-icon'/>
             <SiShadcnui />
-            <SiSimplenote />
+            <div className="bg-white rounded">
+            <SiDiagramsdotnet color='orange'/>
+            </div>
+            <SiSimplenote color='#3361CC'/> 
           </div>
-          <div className="framework flex gap-2">
-            <DiNodejs />
-            <SiPostman />
-            <SiDocker />
+          <div className="framework flex gap-2 items-center justify-center">
+            <SiVercel />
+            <Icon icon='logos:npm-icon'/>
+            <Icon icon='logos:nodejs'/>
+            <Icon icon='logos:docker-icon'/>
+            <Icon icon='logos:bun'/>
+          </div>
+          <div className="framework flex gap-2 items-center justify-center">
+            <Icon icon='logos:postman-icon'/>
+            <Icon icon='logos:git-icon'/>
+            <SiGithub />
             <SiCaddy />
-            <SiBun />
           </div>
         </div>
       </div>
