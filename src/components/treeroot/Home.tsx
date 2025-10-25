@@ -4,6 +4,9 @@ import Welcome from "../pages/Home/Welcome";
 import Journeys from "../pages/Home/Journeys";
 import TechStack from "../pages/Home/Techstack";
 import Contribusion from "../pages/Home/Contribution";
+import Footer from "../ui/footer";
+import SectionFooterAbout from "../ui/SectionFooterAbout";
+
 export default function Home() {
   return (
     <>
@@ -19,6 +22,12 @@ export default function Home() {
       </Element>
       <Element name="gitub">
         <Contribusion />
+      </Element>
+      <Element name="SectionFooterAbout">
+        <SectionFooterAbout />
+      </Element>
+      <Element name="footer">
+        <Footer />
       </Element>
     </>
   )
