@@ -3,11 +3,11 @@ export default function Footer() {
  <div className="min-h-50 bg-gradient-to-b from-black to-black/96 flex flex-col justify-between pb-2 pt-10">
   <div className="border-white/10 border-1 rounded-2xl mx-6 flex flex-col text-white p-2"> 
  <span className="font-bold text-sm">Jbranabb</span>
- <span className="font-medium text-xs text-white/80 mb-2">Somewhere between art and logic.</span>
+ <span className="font-medium text-xs text-white/80 mb-1">Somewhere between art and logic.</span>
  <div className="flex flex-col text-sm mb-2">
   <div className="flex flex-row gap-2 items-center">
     <span className="font-medium text-sm">Home</span>
-    <span className="font-normal text-white/45 text-xs">about me</span>
+    <span className="font-normal text-white/45 text-xs">About Me</span>
   </div>
   <div className="flex flex-row gap-2 items-center">
     <span className="font-medium text-sm">Work</span>
