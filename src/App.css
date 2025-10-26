@@ -1,12 +1,20 @@
 @font-face {
   font-family: HolyCream;
-  src: url("src/assets/fonts/HolyCream-Regular.ttf");
+  src: url("./assets/fonts/HolyCream-Regular.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: Outift;
+  src: url("./assets/fonts/Outfit-Regular.ttf");
   font-weight: bold;
   font-style: normal;
 }
 @import "tailwindcss";
 
-@theme
-{
-    --font-holycream: HolyCream, "sans-serif"
+@theme{
+  --font-holycream: HolyCream, "sans-serif"
+}
+@theme{
+  --font-outfit: Outfit, "sans-serif"
 }
