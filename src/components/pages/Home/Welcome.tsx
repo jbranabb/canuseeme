@@ -24,7 +24,7 @@ export default function Welcome() {
           <span
             className="font-serif text-lg">The Future Developer turning your ideas into reality.</span>
           <span className="font-sans font-semibold text-3xl">An 18 year old fullstack developer passionate about building cool stuff.</span>
-          <span className="text-xs font-mono text-gray-500 mt-2">Mobile | Website | Backend</span>
+          <span className="text-xs font-mono text-gray-500 mt-2">Mobile | Website</span>
         </div>
       </div>
       <div className={`${visibilty ? 'opacity-0' : 'opacity-100'} flex justify-center mb-20 animate-bounce text-white font-medium text-xs hover:opacity-0 transition-opacity`}>Hey Lets Scroll Down</div>
